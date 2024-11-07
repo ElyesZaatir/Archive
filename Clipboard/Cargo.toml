@@ -1,0 +1,10 @@
+[package]
+name = "Clipboard"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arboard = "3.4.1"
+enigo = "0.2.1"
+screenshots = "0.8.10"
+xcap = "0.0.14"
