@@ -1,0 +1,7 @@
+[package]
+name = "SoundRust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+soloud = "1.0.5"
