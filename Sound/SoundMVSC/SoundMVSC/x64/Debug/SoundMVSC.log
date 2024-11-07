@@ -1,0 +1,14 @@
+﻿  FileName.cpp
+C:\Users\Alacritty\Documents\Sound\SoundMVSC\SoundMVSC\FileName.cpp(20,9): error C2660: 'libvlc_media_new_location': function does not take 1 arguments
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\vlc\libvlc_media.h(410,28):
+  see declaration of 'libvlc_media_new_location'
+  C:\Users\Alacritty\Documents\Sound\SoundMVSC\SoundMVSC\FileName.cpp(20,9):
+  while trying to match the argument list '(const char [33])'
+  
+C:\Users\Alacritty\Documents\Sound\SoundMVSC\SoundMVSC\FileName.cpp(24,10): error C2660: 'libvlc_media_player_new_from_media': function does not take 2 arguments
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\vlc\libvlc_media_player.h(186,36):
+  see declaration of 'libvlc_media_player_new_from_media'
+  C:\Users\Alacritty\Documents\Sound\SoundMVSC\SoundMVSC\FileName.cpp(24,10):
+  while trying to match the argument list '(libvlc_instance_t *, libvlc_media_t *)'
+  
+C:\Users\Alacritty\Documents\Sound\SoundMVSC\SoundMVSC\FileName.cpp(45,5): error C3861: 'libvlc_media_player_stop_async': identifier not found
