@@ -1,0 +1,8 @@
+[package]
+name = "wallpaper_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+soloud = "1.0.5"
+winapi = {version = "0.3.9",features = ["winuser"]}
