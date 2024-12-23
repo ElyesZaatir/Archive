@@ -9,12 +9,12 @@ use winapi::um::winuser::{SystemParametersInfoA, SPIF_UPDATEINIFILE, SPI_SETDESK
 fn main(){
     let timer = time::Duration::new(1,0);
     loop {
-        _ = sound();
+        _ = wallpaper();
         thread::sleep(timer);
     }
 }
 
-fn sound() -> Result<(), Box<dyn std::error::Error>> {
+/*fn sound() -> Result<(), Box<dyn std::error::Error>> {
     let sl = Soloud::default()?;
 
     let mut wav = audio::Wav::default();
@@ -23,7 +23,7 @@ fn sound() -> Result<(), Box<dyn std::error::Error>> {
     sl.play(&wav);
     wallpaper();
     Ok(())
-}
+}*/ // including sound from my SoundRust
 
 
 fn wallpaper() {
